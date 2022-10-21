@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="dist/bee.js"></script>
+  <title>BeeJS</title>
+  <style type="text/css" media="all">
+    #container{
+      padding: 10px;
+      background: rgb(230, 239, 256);
+      margin: auto;
+      height: fit-content;
+      border: 1px solid transparent;
+      border-radius: 8px;
+    }
+    input, button{
+      height: 30px;
+      width: 90%;
+      margin: auto;
+      background: rgb(220, 229, 246);
+    margin-bottom: 8px;
+    padding-left: 10px;
+    font-family: Times New Roman;
+    border: 1px solid transparent;
+    }
+    button{
+      background: dodgerblue;
+    }
+    #tag{
+      font-family: Monospace;
+      font-size: 18px;
+      
+    }
+  </style>
+</head>
+<body>
+	<h1>BeeJS</h1>
+	<div id="bee">
+	  
+	</div>
+	<script src="js/index.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+	  __widget("#bee").render("#bee", ()=>{
+	 return `
+	   
+	    <view id="container">
+	    <headLine id="tag">Log In</headLine>
+	    <newLine/>
+	    <newLine/>
+	    <form>
+	    <middle>
+	    <inp type="name" placeholder="enter name"/>
+	    <newLine/>
+	    <inp type="email" placeholder="enter email address"/>
+    <newLine/>
+	    <inp type="password" placeholder="enter password"/>
+    <newLine/>
+    <btn type="submit">sign in</btn>
+	    </form>
+	    </middle>
+	    </view>
+	     
+	    `});
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+ 
+	      <btn>click me</btn>
+	      <newLine/>
+	    <view style='background:red; padding:20px'>
+	    <btn onclick='{alert(1)}'>click me</btn>
+	    <newLine/>
+	    <newLine/>
+	    <img src="bee.png" alt="image"/>
+	    
+	    </view>
+	    
